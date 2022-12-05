@@ -1,0 +1,2 @@
+#!/bin/bash
+[ ! -f ls_cwd_content ] && ls > ls_cwd_content || ls >> ls_cwd_content
