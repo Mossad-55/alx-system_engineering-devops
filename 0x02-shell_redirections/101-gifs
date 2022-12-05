@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -depth -type f -name "*.git" -printf %f'\n' | sort -f 
+find . -depth -type f -name "*.git" -printf %f'\n' | sort -f | rev | cut -c 5- | rev 
